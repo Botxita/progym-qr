@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Progym Cloud X</title>
+  <script>
+    var ua = navigator.userAgent || '';
+    var isAndroid = /Android/i.test(ua);
+    var isIOS = /iPhone|iPad|iPod/i.test(ua);
+    if (isAndroid) {
+      window.location.href = "https://play.google.com/store/apps/details?id=com.progymcloud.client";
+    } else if (isIOS) {
+      window.location.href = "https://apps.apple.com/mx/app/progym-cloud-x/id6739168431";
+    } else {
+      window.location.href = "https://play.google.com/store/apps/details?id=com.progymcloud.client";
+    }
+  </script>
+</head>
+<body>
+  <p>Redirigiendo a la tienda...</p>
+</body>
+</html>
